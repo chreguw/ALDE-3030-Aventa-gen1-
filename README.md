@@ -5,7 +5,8 @@ Control Alde 3030 and Aventa
 Steuerung und Überwachung der Alde Compact 3030 Plus und der Truma Aventa
 über MQTT. Ein Raspberry Pi am Fahrzeug ist mit dem Yellow CI-Bus (Panel)
 und dem Red Bus (via T stück) verbunden. Bitte bei Fragen einfach eine Nachricht oder Issues hinterlassen! 
-Testlauf lief über 2 Monate fehlerfrei, Garantie natürlich keine. 
+Testlauf lief über 2 Monate fehlerfrei, Garantie natürlich keine. Getestet mit ALDE 3030 Compact, Aventa Comfort Gen1. 
+
 
 Home Assistant kann im Fahrzeug oder remote laufen. Node-RED auf einem
 Victron Cerbo oder jeder andere MQTT-Client sind ebenfalls nutzbar.
@@ -31,7 +32,7 @@ Dashboards (Home Assistant und Node-RED) folgen in einem zweiten Schritt.
   am Display bestätigt wird.
 
 ### Red Bus
-- Aventa: Betriebsart, Lüfterstufe, Solltemperatur
+- Aventa: Betriebsart, Lüfterstufe, Solltemperatur. Aventa Vent Mode's Modus Night etc. hatte ich nicht auf dem Radar, habe Sie einfach stehen lassen, wahrscheinlich sind diese bei anderen AVENTA'S vorhanden. Low wird immer erscheinen, das ist normal bei auch bei OFF! Aventa Aircon Mode hier sind alle vorhanden bei der Aventa Comfort Gen1. mit anderen Aventas wurde der Code nicht getestet, wird aber funktionieren!  
 - Glykol- und Warmwassertemperatur
 - External Start (externer Eingang): Zustand wird vom Bus gelesen
   und als MQTT-Binary-Sensor veröffentlicht
