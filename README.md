@@ -93,6 +93,9 @@ einem gemeinsamen Gerät. Im MQTT!
 
 Pins im Skript an die Verdrahtung anpassen.
 
+## Mitwirken
+
+Issues und Pull Requests sind willkommen.
 ---
 
 ## Software
