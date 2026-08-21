@@ -13,6 +13,7 @@ Voraussetzung: IP-Netzwerk und MQTT-Broker.
 
 Dashboards (Home Assistant und Node-RED) folgen in einem zweiten Schritt.
 
+
 ---
 
 ## Funktionen
@@ -104,3 +105,9 @@ Pins im Skript an die Verdrahtung anpassen.
 ```bash
 python3 alde_mqtt.py
 python3 alde_red_bus_mqtt.py
+
+## Credits
+
+Basiert auf dem Projekt von davidotson (Alde 3030 MQTT Bridge).
+Stark erweitert: Red Bus / Aventa, Display, External Start, Manual-Schutz
+und Absicherung gegen Panel-Sperren.
