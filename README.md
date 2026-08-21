@@ -4,7 +4,7 @@ Control Alde 3030 and Aventa
 
 Steuerung und Überwachung der Alde Compact 3030 Plus und der Truma Aventa
 über MQTT. Ein Raspberry Pi am Fahrzeug ist mit dem Yellow CI-Bus (Panel)
-und dem Red Bus (via T stück) verbunden. Bitte bei fragen einfach eine Nachricht oder Issues hinterlassen! 
+und dem Red Bus (via T stück) verbunden. Bitte bei Fragen einfach eine Nachricht oder Issues hinterlassen! 
 Testlauf lief über 2 Monate fehlerfrei, Garantie natürlich keine. 
 
 Home Assistant kann im Fahrzeug oder remote laufen. Node-RED auf einem
