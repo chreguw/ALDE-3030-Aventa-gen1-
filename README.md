@@ -69,7 +69,7 @@ einem gemeinsamen Gerät.
 | Pin | Funktion |
 |-----|----------|
 | GND | Masse, gemeinsam mit dem Pi |
-| VCC | Versorgung (Fahrzeug-12 V bzw. laut Modul) von da zwingend über ein Buch Converter zum PI 5v! Nie direkt 12v an den Pi, würde er sofort zerstört!|
+| VCC | Versorgung (Fahrzeug-12 V bzw. laut Modul) von da zwingend über ein buck-converter zum PI 5v! Nie direkt 12v an den Pi, würde er sofort zerstört!|
 | LIN | Busleitung, RJ12 Pin 4 |
 | EN | Enable, **fest auf 3,3 V** |
 | TXD | Senden (Pi → Bus) |
