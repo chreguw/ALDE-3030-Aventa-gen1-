@@ -52,7 +52,7 @@ Ohne Relais bleibt `EXTERNAL_START_TOPIC = None`.
 | `alde_red_bus_mqtt.py` | Red Bus | pigpio GPIO RX und TX | Aventa steuern, Temperaturen und External Start lesen |
 
 Beide Dienste laufen unabhängig und erscheinen in Home Assistant unter
-einem gemeinsamen Gerät.
+einem gemeinsamen Gerät. Im MQTT!
 
 ---
 
@@ -62,7 +62,7 @@ einem gemeinsamen Gerät.
 |------------|-----------|
 | Raspberry Pi | z. B. Zero 2 W, Hardware-UART und GPIO |Buck Converter (12v auf 5v für den PI)
 | 2× LIN-Transceiver | getestet: Soldered NCV7329 Breakout (Slave). Andere LIN-Transceiver sind kompatibel, Versorgungsspannung beobachten, zwingend 3.3V, wenn High!, sonst zerstört man den PI |
-| RJ12 | Yellow- und Red-Buchse am Panel |
+| RJ12 Kabel 2 Stück | Yellow- und Red-Buchse am Panel |
 
 ### Soldered NCV7329 – Anschlüsse
 
